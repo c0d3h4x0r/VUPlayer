@@ -4,6 +4,7 @@
 #include "HandlerFFmpeg.h"
 #include "HandlerFlac.h"
 #include "HandlerMP3.h"
+#include "HandlerOpenMPT.h"
 #include "HandlerOpus.h"
 #include "HandlerPCM.h"
 #include "HandlerWavpack.h"
@@ -20,6 +21,7 @@ Handlers::Handlers() :
 	m_HandlerFFmpeg( new HandlerFFmpeg() ),
 	m_Handlers( {
 		Handler::Ptr( new HandlerFlac() ),
+		Handler::Ptr( new HandlerOpenMPT() ),
 		Handler::Ptr( new HandlerOpus() ),
 		Handler::Ptr( new HandlerWavpack() ),
 		Handler::Ptr( new HandlerMAC() ),

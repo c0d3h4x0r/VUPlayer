@@ -58,6 +58,8 @@ public:
 	// Returns the current stream title, and the position (in seconds) at which the title last changed.
 	virtual std::pair<float /*seconds*/, std::wstring /*title*/> GetStreamTitle();
 
+	virtual std::set<std::wstring> GetSupportedFileExtensionsAsLowercaseStrings() const;
+
 protected:
 	// Sets the 'duration'.
 	void SetDuration( const float duration );

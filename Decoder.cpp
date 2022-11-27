@@ -138,3 +138,8 @@ std::pair<float /*seconds*/, std::wstring /*title*/> Decoder::GetStreamTitle()
 {
 	return {};
 }
+
+std::set<std::wstring> Decoder::GetSupportedFileExtensionsAsLowercaseStrings() const
+{
+	return {};
+}

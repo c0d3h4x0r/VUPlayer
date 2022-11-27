@@ -90,7 +90,7 @@
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <TreatWarningAsError>true</TreatWarningAsError>
-      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\libopenmpt-0.6.6\include\libopenmpt;libs\libopenmpt-0.6.6\include\libopenmpt;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4458</DisableSpecificWarnings>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <EnableEnhancedInstructionSet>
@@ -129,7 +129,7 @@ copy "$(ProjectDir)libs\ffmpeg-5.0.1\bin\x86\swresample-4.dll" $(OutDir)swresamp
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <TreatWarningAsError>true</TreatWarningAsError>
-      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\gnsdk_vuplayer\include;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\libopenmpt-0.6.6\include\libopenmpt;libs\libopenmpt-0.6.6\include\libopenmpt;libs\gnsdk_vuplayer\include;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4458</DisableSpecificWarnings>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <EnableEnhancedInstructionSet>
@@ -170,7 +170,7 @@ copy "$(ProjectDir)libs\ffmpeg-5.0.1\bin\x64\swresample-4.dll" $(OutDir)swresamp
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <TreatWarningAsError>true</TreatWarningAsError>
-      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\libopenmpt-0.6.6\include\libopenmpt;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4458</DisableSpecificWarnings>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <EnableEnhancedInstructionSet>
@@ -216,7 +216,7 @@ copy "$(ProjectDir)libs\ffmpeg-5.0.1\bin\x86\swresample-4.dll" $(OutDir)swresamp
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <TreatWarningAsError>true</TreatWarningAsError>
-      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\gnsdk_vuplayer\include;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>libs\bass-2.4.15\c;libs\sqlite-3.39.3;libs\libogg-1.3.5\include;libs\libvorbis-1.3.7\include;libs\flac-1.4.0\include;libs\vorbis-tools-1.4.2\vorbiscomment;libs\WavPack-5.5.0\include;libs\opus-1.3.1\include;libs\opusfile-0.12\include;libs\libopusenc-0.2.1\include;libs\json-3.11.2;libs\libopenmpt-0.6.6\include\libopenmpt;libs\gnsdk_vuplayer\include;libs\lame-3.100\include;libs\bassmidi-2.4.14\c;libs\bassdsd-2.4.1\c;libs\scrobbler\include;libs\libebur128-1.2.6;libs\libebur128-1.2.6\queue;libs\basswasapi-2.4.3\c;libs\bassmix-2.4.12\c;libs\bassasio-1.4.1\c;libs\basshls-2.4.2\c;libs\MAC-5.69\include;libs\MPC-r475\include;libs\ffmpeg-5.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4458</DisableSpecificWarnings>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <EnableEnhancedInstructionSet>
@@ -258,6 +258,7 @@ copy "$(ProjectDir)libs\ffmpeg-5.0.1\bin\x64\swresample-4.dll" $(OutDir)swresamp
     <ClInclude Include="Artwork.h" />
     <ClInclude Include="CDDACache.h" />
     <ClInclude Include="CDDAExtract.h" />
+    <ClInclude Include="DecoderOpenMPT.h" />
     <ClInclude Include="DiscManager.h" />
     <ClInclude Include="CDDAMedia.h" />
     <ClInclude Include="Converter.h" />
@@ -277,6 +278,7 @@ copy "$(ProjectDir)libs\ffmpeg-5.0.1\bin\x64\swresample-4.dll" $(OutDir)swresamp
     <ClInclude Include="DlgHotkey.h" />
     <ClInclude Include="DlgOptions.h" />
     <ClInclude Include="HandlerFFmpeg.h" />
+    <ClInclude Include="HandlerOpenMPT.h" />
     <ClInclude Include="libs\json-3.11.2\json.hpp" />
     <ClInclude Include="libs\libebur128-1.2.6\ebur128.h" />
     <ClInclude Include="libs\sqlite-3.39.3\sqlite3.h" />
@@ -368,6 +370,7 @@ copy "$(ProjectDir)libs\ffmpeg-5.0.1\bin\x64\swresample-4.dll" $(OutDir)swresamp
     <ClCompile Include="Artwork.cpp" />
     <ClCompile Include="CDDACache.cpp" />
     <ClCompile Include="CDDAExtract.cpp" />
+    <ClCompile Include="DecoderOpenMPT.cpp" />
     <ClCompile Include="DiscManager.cpp" />
     <ClCompile Include="CDDAMedia.cpp">
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4458; 4815</DisableSpecificWarnings>
@@ -398,6 +401,7 @@ copy "$(ProjectDir)libs\ffmpeg-5.0.1\bin\x64\swresample-4.dll" $(OutDir)swresamp
     <ClCompile Include="DlgHotkey.cpp" />
     <ClCompile Include="DlgOptions.cpp" />
     <ClCompile Include="HandlerFFmpeg.cpp" />
+    <ClCompile Include="HandlerOpenMPT.cpp" />
     <ClCompile Include="libs\libebur128-1.2.6\ebur128.c" />
     <ClCompile Include="libs\sqlite-3.39.3\sqlite3.c" />
     <ClCompile Include="libs\vorbis-tools-1.4.2\vorbiscomment\vcedit.c">
